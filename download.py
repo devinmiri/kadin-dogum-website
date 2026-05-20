@@ -1,0 +1,3 @@
+import urllib.request
+url = "https://scontent-atl3-2.cdninstagram.com/v/t51.71878-15/503040038_4024209534523603_5337643130612829667_n.jpg?stp=cmp1_dst-jpg_e35_s640x640_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0RP_6nKLJCkQ7kNvwHCK2hp&_nc_oc=AdqEwqPrRQZ3gB1waCCyfcZ6j3JZo4VsmFZHw032_0ub941Pzl9v-cti__1GkK74v1I&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=Q-Y5x78KBB27DisQH2W72g&_nc_ss=7b60f&oh=00_Af4R7aIeIbP0sWS2xCzOv2w7R5wamTYkwTLx5zbfOvTLUQ&oe=6A13D49C"
+urllib.request.urlretrieve(url, r"C:\Users\elvin\OneDrive\Masaüstü\Allllll\PROGRAMING\KHD\app\public\doctor_hero.png")
