@@ -58,14 +58,14 @@ export default function Blog() {
                 {post.category}
               </span>
               <h3 style={{ margin: '0.5rem 0 1rem', fontSize: '1.25rem' }}>
-                <Link to={`/blog/${post.slug}`} target="_blank" rel="noopener noreferrer">{post.title}</Link>
+                <Link to={`/blog/${post.slug}`}>{post.title}</Link>
               </h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', marginBottom: '1.5rem', lineHeight: 1.5 }}>
                 {post.excerpt}
               </p>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderTop: '1px solid #f3f4f6', paddingTop: '1rem' }}>
                 <span style={{ fontSize: '0.85rem', color: '#9ca3af' }}>{post.date}</span>
-                <Link to={`/blog/${post.slug}`} target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.9rem', fontWeight: 500, color: 'var(--text-primary)' }}>Devamını Oku &rarr;</Link>
+                <Link to={`/blog/${post.slug}`} style={{ fontSize: '0.9rem', fontWeight: 500, color: 'var(--text-primary)' }}>Devamını Oku &rarr;</Link>
               </div>
             </div>
           </article>
